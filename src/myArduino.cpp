@@ -1,6 +1,6 @@
 #include "myArduino.h"
 
-void digitalWrite(uint8_t pin, uint8_t value)
+void digitalWrite(uint8_t port, uint8_t pin, uint8_t value)
 {
   if (value == HIGH)
   {
@@ -12,7 +12,7 @@ void digitalWrite(uint8_t pin, uint8_t value)
   }
 }
 
-void pinMode(uint8_t pin, uint8_t mode)
+void pinMode(uint8_t port, uint8_t pin, uint8_t mode)
 {
   if (mode == OUTPUT)
   {
