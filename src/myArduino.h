@@ -44,5 +44,32 @@
 #define PIND6 6
 #define PIND7 7
 
+//Ports
+#define PORT_B 0
+#define PORT_C 1
+#define PORT_D 2
+
+/**
+ * @brief Sets the output level of a digital pin.
+ *
+ * @param port  Port containing the pin (`PORT_B`, `PORT_C`, or `PORT_D`).
+ * @param pin   Bit number of the pin within the port.
+ * @param value Output level: `HIGH` or `LOW`.
+ */
 void digitalWrite(uint8_t port, uint8_t pin, uint8_t value);
+
+/**
+ * @brief Configures a digital pin as an input or output.
+ *
+ * @param port Port containing the pin (`PORT_B`, `PORT_C`, or `PORT_D`).
+ * @param pin  Bit number of the pin within the port.
+ * @param mode Pin mode: `INPUT` or `OUTPUT`.
+ */
 void pinMode(uint8_t port, uint8_t pin, uint8_t mode);
+
+/**
+ * @brief Pauses program execution for the specified duration.
+ *
+ * @param milliseconds Duration of the pause in milliseconds.
+ */
+void delay(uint32_t milliseconds);
