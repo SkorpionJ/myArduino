@@ -1,3 +1,9 @@
+/*
+  MyArduino - A simple Arduino-like library for AVR microcontrollers.
+
+  Author: Jakob Hillebrand
+  Date:   13.11.2026
+*/
 #pragma once
 
 #define HIGH 1
