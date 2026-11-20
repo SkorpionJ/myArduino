@@ -91,7 +91,7 @@ void delay(uint32_t milliseconds)
   _delay_ms(milliseconds);
 }
 
-bool digitalread(uint8_t port, uint8_t pin)
+bool digitalRead(uint8_t port, uint8_t pin)
 {
   switch (port)
   {
