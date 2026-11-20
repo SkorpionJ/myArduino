@@ -84,4 +84,4 @@ void delay(uint32_t milliseconds);
  * @param pin  Bit number of the pin within the port.
  * @return `true` if the pin is HIGH, or `false` if it is LOW or the port is invalid.
  */
-bool digitalread(uint8_t port, uint8_t pin);
+bool digitalRead(uint8_t port, uint8_t pin);
