@@ -1,7 +1,7 @@
 # MyArduino
 
-A minimal AVR-focused Arduino-compatible library that provides `pinMode` and
-`digitalWrite`.
+A minimal AVR-focused Arduino-compatible library that provides `pinMode`,
+`digitalWrite`, `digitalread`, and `delay`.
 
 ## Installation
 
